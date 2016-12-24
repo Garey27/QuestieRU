@@ -529,7 +529,6 @@ AstroobjectiveProcessors = {
 		end
 		monster["type"] = "slay";
 		monster["locations"] = {};
-		message(name);
 		if(QuestieMonsters[name] and QuestieMonsters[name]['locations']) then
 			for k, pos in pairs(QuestieMonsters[name]['locations']) do
 				table.insert(monster["locations"], pos);
